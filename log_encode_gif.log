@@ -1,0 +1,123 @@
+ffmpeg version git-2020-03-12-675bb1f Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 9.2.1 (GCC) 20200122
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libdav1d --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libmfx --enable-ffnvcodec --enable-cuda-llvm --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth --enable-libopenmpt --enable-amf
+  libavutil      56. 42.100 / 56. 42.100
+  libavcodec     58. 75.100 / 58. 75.100
+  libavformat    58. 41.100 / 58. 41.100
+  libavdevice    58.  9.103 / 58.  9.103
+  libavfilter     7. 77.100 /  7. 77.100
+  libswscale      5.  6.101 /  5.  6.101
+  libswresample   3.  6.100 /  3.  6.100
+  libpostproc    55.  6.100 / 55.  6.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/happy/AppData/Local/Temp/KritaFFmpegProgress.uYOUCi'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '5'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'C:/Users/happy/OneDrive/School/cse154/cp2-js-yerimh/right_walk_%04d.png'.
+Reading option '-i' ... matched as input url with argument 'C:/Users/happy/OneDrive/School/cse154/cp2-js-yerimh/palette.png'.
+Reading option '-lavfi' ... matched as option 'lavfi' (create a complex filtergraph) with argument '[0:v][1:v] paletteuse'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'C:/Users/happy/OneDrive/School/cse154/cp2-js-yerimh/rain.gif' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/happy/AppData/Local/Temp/KritaFFmpegProgress.uYOUCi.
+[file @ 00000239aeb6b300] Setting default whitelist 'file,crypto,data'
+Applying option lavfi (create a complex filtergraph) with argument [0:v][1:v] paletteuse.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url C:/Users/happy/OneDrive/School/cse154/cp2-js-yerimh/right_walk_%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 5.
+Successfully parsed a group of options.
+Opening an input file: C:/Users/happy/OneDrive/School/cse154/cp2-js-yerimh/right_walk_%04d.png.
+[image2 @ 00000239aebab780] Opening 'C:/Users/happy/OneDrive/School/cse154/cp2-js-yerimh/right_walk_0000.png' for reading
+[file @ 00000239aebaee40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000239aebb7040] Statistics: 312998 bytes read, 0 seeks
+[image2 @ 00000239aebab780] Opening 'C:/Users/happy/OneDrive/School/cse154/cp2-js-yerimh/right_walk_0001.png' for reading
+[file @ 00000239aec03a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000239aec10b00] Statistics: 298112 bytes read, 0 seeks
+[image2 @ 00000239aebab780] Opening 'C:/Users/happy/OneDrive/School/cse154/cp2-js-yerimh/right_walk_0002.png' for reading
+[file @ 00000239b0158f40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000239b01590c0] Statistics: 311997 bytes read, 0 seeks
+Input #0, image2, from 'C:/Users/happy/OneDrive/School/cse154/cp2-js-yerimh/right_walk_%04d.png':
+  Duration: 00:00:00.12, start: 0.000000, bitrate: N/A
+    Stream #0:0, 3, 1/25: Video: png, 1 reference frame, rgba(pc), 2736x1660 [SAR 11811:11811 DAR 684:415], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: input url C:/Users/happy/OneDrive/School/cse154/cp2-js-yerimh/palette.png.
+Successfully parsed a group of options.
+Opening an input file: C:/Users/happy/OneDrive/School/cse154/cp2-js-yerimh/palette.png.
+[NULL @ 00000239b01a60c0] Opening 'C:/Users/happy/OneDrive/School/cse154/cp2-js-yerimh/palette.png' for reading
+[file @ 00000239b01a6780] Setting default whitelist 'file,crypto,data'
+[png_pipe @ 00000239b01a60c0] Format png_pipe probed with size=2048 and score=99
+[png_pipe @ 00000239b01a60c0] Before avformat_find_stream_info() pos: 0 bytes read:113 seeks:0 nb_streams:1
+[png_pipe @ 00000239b01a60c0] After avformat_find_stream_info() pos: 113 bytes read:113 seeks:0 frames:1
+Input #1, png_pipe, from 'C:/Users/happy/OneDrive/School/cse154/cp2-js-yerimh/palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0, 1, 1/25: Video: png, 1 reference frame, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 0/1, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url C:/Users/happy/OneDrive/School/cse154/cp2-js-yerimh/rain.gif.
+Successfully parsed a group of options.
+Opening an output file: C:/Users/happy/OneDrive/School/cse154/cp2-js-yerimh/rain.gif.
+[file @ 00000239aebb2bc0] Setting default whitelist 'file,crypto,data'
+Successfully opened the file.
+detected 4 logical cores
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse:default
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 11 times
+[graph 0 input from stream 0:0 @ 00000239b02aab40] Setting 'video_size' to value '2736x1660'
+[graph 0 input from stream 0:0 @ 00000239b02aab40] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 00000239b02aab40] Setting 'time_base' to value '1/5'
+[graph 0 input from stream 0:0 @ 00000239b02aab40] Setting 'pixel_aspect' to value '11811/11811'
+[graph 0 input from stream 0:0 @ 00000239b02aab40] Setting 'frame_rate' to value '5/1'
+[graph 0 input from stream 0:0 @ 00000239b02aab40] w:2736 h:1660 pixfmt:rgba tb:1/5 fr:5/1 sar:11811/11811
+[graph 0 input from stream 1:0 @ 00000239b02aae80] Setting 'video_size' to value '16x16'
+[graph 0 input from stream 1:0 @ 00000239b02aae80] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 1:0 @ 00000239b02aae80] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 1:0 @ 00000239b02aae80] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 1:0 @ 00000239b02aae80] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 1:0 @ 00000239b02aae80] w:16 h:16 pixfmt:rgba tb:1/25 fr:25/1 sar:1/1
+[format @ 00000239b01f7400] Setting 'pix_fmts' to value 'rgb8|bgr8|rgb4_byte|bgr4_byte|gray|pal8'
+[auto_scaler_0 @ 00000239b01f7bc0] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 00000239b0227cc0] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_paletteuse_0'
+[auto_scaler_1 @ 00000239b01f8080] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 00000239b0227cc0] auto-inserting filter 'auto_scaler_1' between the filter 'graph 0 input from stream 1:0' and the filter 'Parsed_paletteuse_0'
+[AVFilterGraph @ 00000239b01f6dc0] query_formats: 5 queried, 2 merged, 2 already done, 0 delayed
+[swscaler @ 00000239b02aaf80] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 00000239b01f7bc0] w:2736 h:1660 fmt:rgba sar:11811/11811 -> w:2736 h:1660 fmt:bgra sar:1/1 flags:0x2
+[swscaler @ 00000239b02c2b80] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 00000239b01f8080] w:16 h:16 fmt:rgba sar:1/1 -> w:16 h:16 fmt:bgra sar:1/1 flags:0x2
+[Parsed_paletteuse_0 @ 00000239b0227cc0] [framesync @ 00000239b0228fc8] Selected 1/25 time base
+[Parsed_paletteuse_0 @ 00000239b0227cc0] [framesync @ 00000239b0228fc8] Sync level 2
+Output #0, gif, to 'C:/Users/happy/OneDrive/School/cse154/cp2-js-yerimh/rain.gif':
+  Metadata:
+    encoder         : Lavf58.41.100
+    Stream #0:0, 0, 1/100: Video: gif, 1 reference frame, pal8, 2736x1660 [SAR 1:1 DAR 684:415], 0/1, q=2-31, 200 kb/s, 5 fps, 100 tbn, 5 tbc (default)
+    Metadata:
+      encoder         : Lavc58.75.100 gif
+Clipping frame in rate conversion by 0.000008
+[gif @ 00000239aebb1e40] 2552x1437 image at pos (69;36) [area:2736x1660]
+[gif @ 00000239aebb1e40] 2586x1484 image at pos (31;18) [area:2736x1660]
+[Parsed_paletteuse_0 @ 00000239b0227cc0] [framesync @ 00000239b0228fc8] Sync level 0
+frame=    3 fps=0.0 q=-0.0 size=      33kB time=00:00:00.41 bitrate= 658.2kbits/s speed=0.735x    [out_0_0 @ 00000239b01f7240] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=    3 fps=0.0 q=-0.0 Lsize=      50kB time=00:00:00.41 bitrate= 997.3kbits/s speed=0.733x    
+[AVIOContext @ 00000239aebab4c0] Statistics: 0 seeks, 2 writeouts
+video:50kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.039146%
+Input file #0 (C:/Users/happy/OneDrive/School/cse154/cp2-js-yerimh/right_walk_%04d.png):
+  Input stream #0:0 (video): 3 packets read (923107 bytes); 3 frames decoded; 
+  Total: 3 packets (923107 bytes) demuxed
+Input file #1 (C:/Users/happy/OneDrive/School/cse154/cp2-js-yerimh/palette.png):
+  Input stream #1:0 (video): 1 packets read (113 bytes); 1 frames decoded; 
+  Total: 1 packets (113 bytes) demuxed
+Output file #0 (C:/Users/happy/OneDrive/School/cse154/cp2-js-yerimh/rain.gif):
+  Output stream #0:0 (video): 3 frames encoded; 3 packets muxed (51091 bytes); 
+  Total: 3 packets (51091 bytes) muxed
+4 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 00000239aebb2d40] Statistics: 0 seeks, 1 writeouts
+[AVIOContext @ 00000239b01a6a00] Statistics: 113 bytes read, 0 seeks

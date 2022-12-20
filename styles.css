@@ -1,0 +1,42 @@
+/*
+  Yerim Heo
+  10/17/2020
+  CSE 154 AF Wilson Tang
+  This is the "styles.css" file for my creative project 2.
+  It defines the style for the singular index.html page.
+*/
+
+body {
+  background-color: #8cc7ed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rain {
+  background-image: url("rain.gif");
+  background-size: cover;
+}
+
+p {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 24px;
+  color: white;
+  display: hidden;
+  text-align: center;
+}
+
+#frog {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 100px;
+}
+
+#tea {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 300px;
+}
